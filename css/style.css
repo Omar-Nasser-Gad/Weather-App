@@ -1,0 +1,26 @@
+main {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url(../images/weather.jpg);
+    /* background-image: url(../images/weather.jpg); */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.temp-type {
+    font-size: 14px;
+    margin: 0;
+}
+
+.today-weather {
+    border-bottom: 3px dotted red;
+}
+
+.form-control:focus {
+    box-shadow: unset;
+}
+
+input[placeholder]::-webkit-input-placeholder {
+    color: red;
+}
